@@ -5,8 +5,6 @@ require 'httparty'
 require 'json'
 require 'rss'
 
-require 'pry'
-
 autoload_paths = %w(/lib)
 
 autoload_paths.each do |path|
